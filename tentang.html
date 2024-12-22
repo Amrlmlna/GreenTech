@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav
+      class="py-4 fixed top-0 left-0 right-0 z-50 shadow-md"
+      style="background-color: rgba(84, 71, 71, 0.488)"
+    >
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <!-- Logo -->
+        <div class="flex items-center space-x-2">
+          <img src="src/img/logo.png" alt="Logo" class="w-15 h-10" />
+          <div
+            class="text-2xl font-bold text-cadetblue"
+            style="font-family: 'Bowlby One SC'; color: white"
+          >
+            G<span class="text-[#8eb486]">Tech.</span>
+          </div>
+        </div>
+        <ul
+          class="hidden md:flex space-x-6 items-center"
+          style="font-family: Poppins; color: white"
+        >
+          <li>
+            <a
+              href="index.html#home"
+              class="hover:text-green-300 transition duration-300"
+              >Home</a
+            >
+          </li>
+          <li class="relative group">
+            <button
+              class="flex items-center hover:text-green-300 focus:outline-none transition duration-300"
+            >
+              More
+              <svg
+                class="w-4 h-4 ml-1 transition-transform transform"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <ul
+              class="absolute left-0 mt-2 w-56 bg-[#8eb486] text-white rounded-md shadow-lg hidden group-hover:block"
+            >
+              <li>
+                <a
+                  href="index.html#topics"
+                  class="block px-4 py-2 hover:bg-[#997C70]"
+                  data-index="0"
+                  >Topics</a
+                >
+              </li>
+              <li>
+                <a
+                  href="index.html#events"
+                  class="block px-4 py-2 hover:bg-[#997C70]"
+                  data-index="1"
+                  >Events</a
+                >
+              </li>
+              <li>
+                <a
+                  href="index.html#projects"
+                  class="block px-4 py-2 hover:bg-[#997C70]"
+                  data-index="2"
+                  >Projects</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a
+              href="tentang.html"
+              class="hover:text-green-300 transition duration-300"
+              >Tentang</a
+            >
+          </li>
+          <li>
+            <a
+              href="kontak.html"
+              class="hover:text-green-300 transition duration-300"
+              >Kontak</a
+            >
+          </li>
+        </ul>
+        <div>
+          <a
+            href="#"
+            class="text-white hidden md:inline-block border border-white px-4 py-2 rounded-full hover:bg-[#8eb486] hover:text-white transition duration-300"
+            >Github</a
+          >
+        </div>
+      </div>
+    </nav>
+    <div
+      class="container mx-auto relative h-screen w-screen"
+      style="font-family: Poppins"
+    >
+      <div class="flex h-screen w-screen">
+        <div
+          class="text-red-500 w-1/2 bg-[url('src/img/mrl.png')] bg-cover bg-center flex items-start justify-center relative"
+        >
+          <div>
+            <h2 class="text-9xl font-bold mt-20 text-center">Amirul</h2>
+            <p class="px-20 text-center">
+              weeeeeee, disuruh buat kelompok UAS web
+            </p>
+            <img
+              src="src/img/star.png"
+              alt="Star"
+              class="absolute top-20 left-32 w-12 opacity-80"
+            />
+            <img
+              src="src/img/star.png"
+              alt="Star"
+              class="absolute top-1/2 left-10 w-16 opacity-70"
+            />
+            <img
+              src="src/img/star.png"
+              alt="Star"
+              class="absolute items-center left-[140px] w-70 opacity-70"
+            />
+            <img
+              src="src/img/star.png"
+              alt="Star"
+              class="absolute bottom-20 right-20 w-10 opacity-90"
+            />
+            <div class="mt-[300px] w-[350px]">
+              <p
+                class="text-lg mb-8 ml-5 text-start bg-[#b17358] text-[#e7e6e7] rounded-full pl-5"
+              >
+                Green tech supports sustainable development
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-white w-1/2 bg-[url('src/img/noes.png')] bg-cover bg-center flex items-start justify-center"
+        >
+          <div>
+            <h2 class="text-9xl font-bold mt-20 text-center">Yunus</h2>
+            <p class="px-20 text-center">apahhhhhh, gass.</p>
+            <img
+              src="src/img/star.png"
+              alt="Star"
+              class="absolute top-0 left-32 w-12 opacity-80"
+            />
+            <img
+              src="src/img/star.png"
+              alt="Star"
+              class="absolute top-1/2 left-10 w-16 opacity-70"
+            />
+            <img
+              src="src/img/star.png"
+              alt="Star"
+              class="absolute items-center w-70 opacity-70"
+            />
+            <img
+              src="src/img/star.png"
+              alt="Star"
+              class="absolute bottom-20 right-20 w-10 opacity-90"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer
+      class="bg-[#b17358] text-[#e7e6e7] text-center"
+      style="font-family: Poppins"
+    >
+      <p>&copy; 2024 Sustainability Tech. Semua hak dilindungi.</p>
+    </footer>
+  </body>
+</html>
